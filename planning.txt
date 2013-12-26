@@ -1,0 +1,11 @@
+I am going to stop writing code, and start writing design stuff in this file. 
+
+First off, we need to figure out how the phonology of a particular language is
+going to be stored. The original idea that I had in my head was to put
+everything into a chart from the very beginning, and force the user to add
+rows and columns (for POA and MOA), and then edit the individual cells to
+handle voicing, aspiration, and any other contrasts that might appear. Of
+course, we'd need to put nasalization into the rows, since nasals usally form
+their own MOA for all intents and purposes. 
+
+However, there might be a better way. I've got to think of what it is, though. 
